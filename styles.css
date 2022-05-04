@@ -1,0 +1,114 @@
+.topnav {
+  background-color: rgb(108, 130, 140);
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #110915;
+  color: white;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: -60px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 420px;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  background-image: url("img2.png");
+  background-color:#a1b6b6;
+  background-size: 240px 260px 
+ }
+
+img {
+  background-image: url(img1.png);
+  position: fixed; /* Stay fixed */
+  top: 35%;
+  left: 0%;
+
+}
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  background-color: rgba(249, 246, 246, 0);
+  color: rgb(255, 255, 255);
+  position: fixed; /* Stay fixed */
+  top: 52%;
+  left: 42%;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  background-color: rgba(249, 246, 246, 0);
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  position: fixed; /* Stay fixed */
+  top: 56%;
+  left: 36.6%;
+} 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(64, 118, 145, 0.439);
+  color: white;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:180px; 
+}
